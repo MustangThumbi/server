@@ -184,7 +184,7 @@ require("dotenv").config();
 const cors = require("cors");
 const { default: axios } = require("axios");
 
-app.listen(5000, () => {
+app.listen(3000, () => {
   console.log("server run nicely");
 });
 // app.use(cors);
